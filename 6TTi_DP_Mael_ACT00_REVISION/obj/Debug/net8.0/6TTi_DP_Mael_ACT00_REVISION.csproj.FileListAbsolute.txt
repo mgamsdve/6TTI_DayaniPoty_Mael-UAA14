@@ -1,0 +1,14 @@
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/bin/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/bin/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.deps.json
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/bin/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.runtimeconfig.json
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/bin/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.dll
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/bin/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.pdb
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.AssemblyInfoInputs.cache
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.AssemblyInfo.cs
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.csproj.CoreCompileInputs.cache
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.dll
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/refint/6TTi_DP_Mael_ACT00_REVISION.dll
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.pdb
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.genruntimeconfig.cache
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/ref/6TTi_DP_Mael_ACT00_REVISION.dll

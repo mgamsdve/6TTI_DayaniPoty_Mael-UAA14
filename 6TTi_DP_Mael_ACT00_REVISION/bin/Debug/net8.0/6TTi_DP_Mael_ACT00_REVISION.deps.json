@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "6TTi_DP_Mael_ACT00_REVISION/1.0.0": {
+        "runtime": {
+          "6TTi_DP_Mael_ACT00_REVISION.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "6TTi_DP_Mael_ACT00_REVISION/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

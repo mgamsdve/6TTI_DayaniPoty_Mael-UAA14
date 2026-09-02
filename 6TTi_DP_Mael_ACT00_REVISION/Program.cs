@@ -9,6 +9,8 @@ namespace _6TTi_DP_Mael_ACT00_REVISION
 
             string rep;
             string infos;
+            string fond;
+            string police;
             
             double c1 = 0;
             double c2 = 0;
@@ -16,6 +18,13 @@ namespace _6TTi_DP_Mael_ACT00_REVISION
             bool ok = false;
 
             Console.WriteLine("Testez les polygones !");
+            
+            Console.WriteLine("Couleur de fond : "); 
+            fond = Console.ReadLine();
+            Console.WriteLine("Couleur de police : ");
+            police = Console.ReadLine();
+            MethodesSuppupp.PersonnaliserConsole(fond, police);
+            
             //On recommence tant que désiré
             do
             {

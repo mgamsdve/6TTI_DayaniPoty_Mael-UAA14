@@ -12,3 +12,4 @@
 /Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.pdb
 /Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.genruntimeconfig.cache
 /Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/ref/6TTi_DP_Mael_ACT00_REVISION.dll
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTi_DP_Mael_ACT00_REVISION/obj/Debug/net8.0/6TTi_DP_Mael_ACT00_REVISION.sourcelink.json

@@ -13,4 +13,12 @@ public static class MethodesSuppupp
 
         return resultat;
     }
+
+    public static void PersonnaliserConsole(string couleurFondUser, string couleurPoliceUser)
+    {
+        Console.BackgroundColor = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), couleurFondUser, true);
+        Console.ForegroundColor = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), couleurPoliceUser, true);
+
+        Console.Clear();
+    }
 }

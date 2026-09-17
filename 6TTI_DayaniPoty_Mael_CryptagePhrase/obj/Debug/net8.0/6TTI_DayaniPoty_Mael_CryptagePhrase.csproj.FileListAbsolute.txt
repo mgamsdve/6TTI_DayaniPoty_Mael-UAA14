@@ -1,0 +1,15 @@
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/obj/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/obj/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.AssemblyInfoInputs.cache
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/obj/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.AssemblyInfo.cs
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/obj/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.csproj.CoreCompileInputs.cache
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/obj/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.sourcelink.json
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/bin/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/bin/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.deps.json
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/bin/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.runtimeconfig.json
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/bin/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.dll
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/bin/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.pdb
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/obj/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.dll
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/obj/Debug/net8.0/refint/6TTI_DayaniPoty_Mael_CryptagePhrase.dll
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/obj/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.pdb
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/obj/Debug/net8.0/6TTI_DayaniPoty_Mael_CryptagePhrase.genruntimeconfig.cache
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/6TTI_DayaniPoty_Mael_CryptagePhrase/obj/Debug/net8.0/ref/6TTI_DayaniPoty_Mael_CryptagePhrase.dll

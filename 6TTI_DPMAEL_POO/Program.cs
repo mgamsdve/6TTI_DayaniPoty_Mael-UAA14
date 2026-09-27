@@ -10,6 +10,8 @@ class Program
         string nom;
         int age;
         string race;
+        string couleur;
+        int poids;
         
         Console.WriteLine("Bonjour, bienvenue dans le programme de gestion des chiens !");
         nombreChiens = LireEntier("Entrez le nombre de chiens que vous souhaitez créer :");
@@ -24,8 +26,13 @@ class Program
             
             Console.WriteLine($"Entrez la race du chien {iChien + 1} :");
             race = Console.ReadLine();
+
+            Console.WriteLine($"Entrez la couleur du chien {iChien + 1} :");
+            couleur = Console.ReadLine();
+
+            poids = LireEntier($"Entrez le poids du chien {iChien + 1} :");
             
-            Chien chien = new Chien(nom, age, race);
+            Chien chien = new Chien(nom, age, race, couleur, poids);
             chien.AfficheCaracteristiques();
             groupe.AjouterChien(chien, iChien);
         }

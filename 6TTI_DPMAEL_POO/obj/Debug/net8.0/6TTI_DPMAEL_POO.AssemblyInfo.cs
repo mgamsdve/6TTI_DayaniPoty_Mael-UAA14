@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("6TTI_DPMAEL_POO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0f8028ace4e5cc2026121ed9cd96ab6d105c545")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+161fd46651fd59c8d2e9f09ac55ec0a6b04360bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("6TTI_DPMAEL_POO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("6TTI_DPMAEL_POO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,18 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Codex">
   <diagram id="exercice-1" name="Exercice 1">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1294" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="classe" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="BarreCereales" vertex="1">
-          <mxGeometry height="138" width="300" x="100" y="100" as="geometry" />
+          <mxGeometry height="172" width="300" x="100" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="attribut-poids" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _poidsDeLaBarre : float" vertex="1"><mxGeometry height="26" width="300" y="26" as="geometry" /></mxCell>
-        <mxCell id="separateur" parent="classe" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1"><mxGeometry height="8" width="300" y="52" as="geometry" /></mxCell>
-        <mxCell id="methode-imprimer" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ImprimerEmballage()" vertex="1"><mxGeometry height="26" width="300" y="60" as="geometry" /></mxCell>
-        <mxCell id="methode-fabriquer" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Fabriquer()" vertex="1"><mxGeometry height="26" width="300" y="86" as="geometry" /></mxCell>
-        <mxCell id="methode-rapport" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ GenererRapport() : string" vertex="1"><mxGeometry height="26" width="300" y="112" as="geometry" /></mxCell>
-        <mxCell id="note" value="Corrections : Class33 est renommée BarreCereales. L’attribut est privé, commence par _ et utilise le camelCase. Les méthodes sont publiques. Faire() est remplacée par le nom plus précis Fabriquer()." style="shape=note;whiteSpace=wrap;html=1;size=15;" vertex="1" parent="1"><mxGeometry x="450" y="100" width="300" height="140" as="geometry" /></mxCell>
+        <mxCell id="attribut-poids" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _poidsDeLaBarre : float" vertex="1">
+          <mxGeometry height="26" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="separateur" parent="classe" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="QfMvr1XlbWgemeSawT53-2" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ float PoidsDeLaBarre (get)&amp;nbsp;" vertex="1">
+          <mxGeometry height="26" width="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QfMvr1XlbWgemeSawT53-1" parent="classe" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="methode-imprimer" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ImprimerEmballage()" vertex="1">
+          <mxGeometry height="26" width="300" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="methode-fabriquer" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Fabriquer()" vertex="1">
+          <mxGeometry height="26" width="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="methode-rapport" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ GenererRapport() : string" vertex="1">
+          <mxGeometry height="26" width="300" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=15;" value="Corrections : Class33 est renommée BarreCereales. L’attribut est privé, commence par _ et utilise le camelCase. Les méthodes sont publiques. Faire() est remplacée par le nom plus précis Fabriquer().&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Ajout de propriété&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="300" x="450" y="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -8,6 +8,60 @@ public class Chien
     private string _couleur;
     private int _poids;
 
+    public string Nom
+    {
+        get
+        {
+            return _nom;
+        }
+    }
+
+    public int Age
+    {
+        get
+        {
+            return _age;
+        }
+        set
+        {
+            if (value >= 0)
+            {
+                _age = value;
+            }
+        }
+    }
+
+    public string Race
+    {
+        get
+        {
+            return _race;
+        }
+    }
+
+    public string Couleur
+    {
+        get
+        {
+            return _couleur;
+        }
+    }
+
+    public int Poids
+    {
+        get
+        {
+            return _poids;
+        }
+        set
+        {
+            if (value > 0)
+            {
+                _poids = value;
+            }
+        }
+    }
+
     public Chien(string nom, int age, string race, string couleur, int poids)
     {
         _nom = nom;
@@ -16,29 +70,29 @@ public class Chien
         _couleur = couleur;
         _poids = poids;
     }
-    
-    public void AfficheCaracteristiques()
+
+    public string AfficheCaracteristiques()
     {
-        Console.WriteLine("Nom : " + _nom + " - Age : " + _age + " - Race : " + _race + " - Couleur : " + _couleur + " - Poids : " + _poids + " kg");
+        return "Nom : " + _nom + " - Age : " + _age + " - Race : " + _race + " - Couleur : " + _couleur + " - Poids : " + _poids + " kg";
     }
 
-    public void Aboyer()
+    public string Aboyer()
     {
-        Console.WriteLine(_nom + " aboie : Wouf wouf !");
+        return _nom + " aboie : Wouf wouf !";
     }
 
-    public void Manger()
+    public string Manger()
     {
-        Console.WriteLine(_nom + " mange.");
+        return _nom + " mange.";
     }
 
-    public void Dormir()
+    public string Dormir()
     {
-        Console.WriteLine(_nom + " dort.");
+        return _nom + " dort.";
     }
 
-    public void Vieillir()
+    public string Mourir()
     {
-        _age = _age + 1;
+        return _nom + " est mort.";
     }
 }

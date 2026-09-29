@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace _6TTI_DPMAEL_POO;
+﻿namespace _6TTI_DPMAEL_POO;
 
 class Program
 {
@@ -20,20 +18,30 @@ class Program
         for (int iChien = 0; iChien < nombreChiens; iChien++)
         {
             Console.WriteLine($"Entrez le nom du chien {iChien + 1} :");
-            nom = Console.ReadLine();
+            nom = Console.ReadLine() ?? "";
             
             age = LireEntier($"Entrez l'âge du chien {iChien + 1} :");
             
             Console.WriteLine($"Entrez la race du chien {iChien + 1} :");
-            race = Console.ReadLine();
+            race = Console.ReadLine() ?? "";
 
             Console.WriteLine($"Entrez la couleur du chien {iChien + 1} :");
-            couleur = Console.ReadLine();
+            couleur = Console.ReadLine() ?? "";
 
             poids = LireEntier($"Entrez le poids du chien {iChien + 1} :");
             
             Chien chien = new Chien(nom, age, race, couleur, poids);
-            chien.AfficheCaracteristiques();
+            Console.WriteLine(chien.AfficheCaracteristiques());
+            Console.WriteLine(chien.Aboyer());
+            Console.WriteLine(chien.Manger());
+            Console.WriteLine(chien.Dormir());
+
+            chien.Age = chien.Age + 1;
+            chien.Poids = chien.Poids + 1;
+
+            Console.WriteLine("Un an plus tard :");
+            Console.WriteLine(chien.AfficheCaracteristiques());
+
             groupe.AjouterChien(chien, iChien);
         }
     }

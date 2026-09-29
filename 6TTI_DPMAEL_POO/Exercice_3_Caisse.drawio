@@ -1,50 +1,119 @@
 <mxfile host="app.diagrams.net" agent="Codex">
   <diagram id="exercice-3" name="Exercice 3">
-    <mxGraphModel dx="1294" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1294" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="classe" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Caisse" vertex="1">
-          <mxGeometry height="302" width="340" x="80" y="80" as="geometry" />
+        <mxCell id="caisse" parent="1" style="swimlane;fontStyle=1;align=center;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;whiteSpace=wrap;html=1;" value="Caisse" vertex="1">
+          <mxGeometry height="302" width="390" x="40" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="attribut-total" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _totalEnCaisse : double" vertex="1">
-          <mxGeometry height="26" width="340" y="26" as="geometry" />
+        <mxCell id="ca1" parent="caisse" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _transactionEnCours : Transaction" vertex="1">
+          <mxGeometry height="26" width="390" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="NlnLECL84gydwevNFIQn-2" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _nombreClients : int" vertex="1">
-          <mxGeometry height="26" width="340" y="52" as="geometry" />
+        <mxCell id="ca2" parent="caisse" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _nombreClients : int" vertex="1">
+          <mxGeometry height="26" width="390" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="NlnLECL84gydwevNFIQn-1" parent="classe" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="340" y="78" as="geometry" />
+        <mxCell id="cas1" parent="caisse" style="line;strokeWidth=1;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="390" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="attribut-clients" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ double TotalEnCaisse (get)" vertex="1">
-          <mxGeometry height="26" width="340" y="86" as="geometry" />
+        <mxCell id="cap1" parent="caisse" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ Transaction TransactionEnCours (get)" vertex="1">
+          <mxGeometry height="26" width="390" y="86" as="geometry" />
         </mxCell>
-        <mxCell id="NlnLECL84gydwevNFIQn-3" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ int NombreClients (get)" vertex="1">
-          <mxGeometry height="26" width="340" y="112" as="geometry" />
+        <mxCell id="cap2" parent="caisse" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ int NombreClients (get)" vertex="1">
+          <mxGeometry height="26" width="390" y="112" as="geometry" />
         </mxCell>
-        <mxCell id="separateur" parent="classe" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="340" y="138" as="geometry" />
+        <mxCell id="cas2" parent="caisse" style="line;strokeWidth=1;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="390" y="138" as="geometry" />
         </mxCell>
-        <mxCell id="methode-valider" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ValiderVente(montant : double)" vertex="1">
-          <mxGeometry height="26" width="340" y="146" as="geometry" />
+        <mxCell id="cam1" parent="caisse" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ DemarrerTransaction()" vertex="1">
+          <mxGeometry height="26" width="390" y="146" as="geometry" />
         </mxCell>
-        <mxCell id="methode-lister" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ListerTransactions() : string" vertex="1">
-          <mxGeometry height="26" width="340" y="172" as="geometry" />
+        <mxCell id="cam2" parent="caisse" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ ScannerProduit(produit : Produit)" vertex="1">
+          <mxGeometry height="26" width="390" y="172" as="geometry" />
         </mxCell>
-        <mxCell id="methode-ajouter" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ AjouterCash(montant : double)" vertex="1">
-          <mxGeometry height="26" width="340" y="198" as="geometry" />
+        <mxCell id="cam3" parent="caisse" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ RetirerProduit(produit : Produit)" vertex="1">
+          <mxGeometry height="26" width="390" y="198" as="geometry" />
         </mxCell>
-        <mxCell id="methode-compter" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CompterClient()" vertex="1">
-          <mxGeometry height="26" width="340" y="224" as="geometry" />
+        <mxCell id="cam4" parent="caisse" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ ValiderPaiement(montantRecu : double) : double" vertex="1">
+          <mxGeometry height="26" width="390" y="224" as="geometry" />
         </mxCell>
-        <mxCell id="methode-retirer" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ RetirerCash(montant : double)" vertex="1">
-          <mxGeometry height="26" width="340" y="250" as="geometry" />
+        <mxCell id="cam5" parent="caisse" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ ImprimerTicket() : string" vertex="1">
+          <mxGeometry height="26" width="390" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="methode-reset" parent="classe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ReinitialiserCaisse()" vertex="1">
-          <mxGeometry height="26" width="340" y="276" as="geometry" />
+        <mxCell id="cam6" parent="caisse" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ AnnulerTransaction()" vertex="1">
+          <mxGeometry height="26" width="390" y="276" as="geometry" />
         </mxCell>
-        <mxCell id="note" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=15;" value="Corrections : les attributs sont privés et commencent par _.&amp;nbsp;&lt;div&gt;Les méthodes sont publiques.&amp;nbsp;&lt;/div&gt;&lt;div&gt;La syntaxe du paramètre devient montant : double. AjouterCash et RetirerCash reçoivent aussi un montant. _nombreClients pour mémoriser le compteur de CompterClient().&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Ajout des propriétés&lt;/div&gt;" vertex="1">
-          <mxGeometry height="190" width="300" x="470" y="80" as="geometry" />
+        <mxCell id="transaction" parent="1" style="swimlane;fontStyle=1;align=center;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;whiteSpace=wrap;html=1;" value="Transaction" vertex="1">
+          <mxGeometry height="302" width="370" x="480" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ta1" parent="transaction" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _produits : Produit[]" vertex="1">
+          <mxGeometry height="26" width="370" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ta2" parent="transaction" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _total : double" vertex="1">
+          <mxGeometry height="26" width="370" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ta3" parent="transaction" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _estPayee : bool" vertex="1">
+          <mxGeometry height="26" width="370" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tas1" parent="transaction" style="line;strokeWidth=1;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="370" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="tap1" parent="transaction" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ Produit[] Produits (get)" vertex="1">
+          <mxGeometry height="26" width="370" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="tap2" parent="transaction" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ double Total (get)" vertex="1">
+          <mxGeometry height="26" width="370" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="tap3" parent="transaction" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ bool EstPayee (get)" vertex="1">
+          <mxGeometry height="26" width="370" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="tas2" parent="transaction" style="line;strokeWidth=1;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="370" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="tam1" parent="transaction" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ AjouterProduit(produit : Produit)" vertex="1">
+          <mxGeometry height="26" width="370" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="tam2" parent="transaction" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ RetirerProduit(produit : Produit)" vertex="1">
+          <mxGeometry height="26" width="370" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="tam3" parent="transaction" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ CalculerTotal() : double" vertex="1">
+          <mxGeometry height="26" width="370" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="tam4" parent="transaction" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ Payer(montantRecu : double) : double" vertex="1">
+          <mxGeometry height="26" width="370" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="produit" parent="1" style="swimlane;fontStyle=1;align=center;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;whiteSpace=wrap;html=1;" value="Produit" vertex="1">
+          <mxGeometry height="224" width="350" x="480" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pa1" parent="produit" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _codeBarres : string" vertex="1">
+          <mxGeometry height="26" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pa2" parent="produit" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _nom : string" vertex="1">
+          <mxGeometry height="26" width="350" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="pa3" parent="produit" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _prix : double" vertex="1">
+          <mxGeometry height="26" width="350" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="pas1" parent="produit" style="line;strokeWidth=1;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pap1" parent="produit" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ string CodeBarres (get)" vertex="1">
+          <mxGeometry height="26" width="350" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="pap2" parent="produit" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ string Nom (get)" vertex="1">
+          <mxGeometry height="26" width="350" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="pap3" parent="produit" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ double Prix (get)" vertex="1">
+          <mxGeometry height="26" width="350" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="pas2" parent="produit" style="line;strokeWidth=1;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pam1" parent="produit" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ LireCodeBarres() : string" vertex="1">
+          <mxGeometry height="26" width="350" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=15;" value="La caisse automatique démarre une transaction, scanne les produits, calcule le total, valide le paiement et imprime le ticket.&amp;nbsp;" vertex="1">
+          <mxGeometry height="170" width="360" x="40" y="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

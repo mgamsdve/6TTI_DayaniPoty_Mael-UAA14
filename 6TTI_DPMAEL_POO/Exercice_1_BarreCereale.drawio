@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="exercice-1" name="Exercice 1">
+    <mxGraphModel dx="1294" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="barre" parent="1" style="swimlane;fontStyle=1;align=center;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;whiteSpace=wrap;html=1;" value="BarreCereale" vertex="1">
+          <mxGeometry height="250" width="350" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ba1" parent="barre" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _nom : string" vertex="1">
+          <mxGeometry height="26" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ba2" parent="barre" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _poids : float" vertex="1">
+          <mxGeometry height="26" width="350" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ba3" parent="barre" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _estEmballee : bool" vertex="1">
+          <mxGeometry height="26" width="350" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bs1" parent="barre" style="line;strokeWidth=1;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="bp1" parent="barre" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ string Nom (get)" vertex="1">
+          <mxGeometry height="26" width="350" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="bp2" parent="barre" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ float Poids (get)" vertex="1">
+          <mxGeometry height="26" width="350" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="bp3" parent="barre" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ bool EstEmballee (get)" vertex="1">
+          <mxGeometry height="26" width="350" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="bs2" parent="barre" style="line;strokeWidth=1;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bm1" parent="barre" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ Emballer()" vertex="1">
+          <mxGeometry height="26" width="350" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="bm2" parent="barre" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ CreerEtiquette() : string" vertex="1">
+          <mxGeometry height="26" width="350" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="production" parent="1" style="swimlane;fontStyle=1;align=center;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;whiteSpace=wrap;html=1;" value="Production" vertex="1">
+          <mxGeometry height="276" width="360" x="480" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pa1" parent="production" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _barre : BarreCereale" vertex="1">
+          <mxGeometry height="26" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pa2" parent="production" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _quantiteProduite : int" vertex="1">
+          <mxGeometry height="26" width="360" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="pa3" parent="production" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="- _estEnCours : bool" vertex="1">
+          <mxGeometry height="26" width="360" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ps1" parent="production" style="line;strokeWidth=1;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pp1" parent="production" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ BarreCereale Barre (get)" vertex="1">
+          <mxGeometry height="26" width="360" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="pp2" parent="production" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ int QuantiteProduite (get)" vertex="1">
+          <mxGeometry height="26" width="360" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3" parent="production" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ bool EstEnCours (get)" vertex="1">
+          <mxGeometry height="26" width="360" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="ps2" parent="production" style="line;strokeWidth=1;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pm1" parent="production" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ Produire(quantite : int)" vertex="1">
+          <mxGeometry height="26" width="360" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="pm2" parent="production" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ ArreterProduction()" vertex="1">
+          <mxGeometry height="26" width="360" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="pm3" parent="production" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;whiteSpace=wrap;html=1;" value="+ GenererRapport() : string" vertex="1">
+          <mxGeometry height="26" width="360" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=15;" value="Corrections : Class33 est renommée BarreCereale au singulier. Les attributs sont privés et une propriété est ajoutée pour chacun. Faire() est remplacée par Produire(quantite : int). La classe Production est ajoutée pour gérer la quantité produite et le rapport. BarreCereale contient seulement les informations et les actions d’une barre." vertex="1">
+          <mxGeometry height="170" width="500" x="60" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

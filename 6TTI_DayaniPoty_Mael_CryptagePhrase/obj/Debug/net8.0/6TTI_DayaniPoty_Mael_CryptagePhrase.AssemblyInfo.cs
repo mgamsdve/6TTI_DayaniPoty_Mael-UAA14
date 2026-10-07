@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("6TTI_DayaniPoty_Mael_CryptagePhrase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a62ae99a22ab48992b7260d02f972f26862ed0fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e873988a3064a04fec0adf038e246bf46e08660")]
 [assembly: System.Reflection.AssemblyProductAttribute("6TTI_DayaniPoty_Mael_CryptagePhrase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("6TTI_DayaniPoty_Mael_CryptagePhrase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/bin/Debug/net8.0/revisionOOP
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/bin/Debug/net8.0/revisionOOP.deps.json
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/bin/Debug/net8.0/revisionOOP.runtimeconfig.json
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/bin/Debug/net8.0/revisionOOP.dll
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/bin/Debug/net8.0/revisionOOP.pdb
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/obj/Debug/net8.0/revisionOOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/obj/Debug/net8.0/revisionOOP.AssemblyInfoInputs.cache
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/obj/Debug/net8.0/revisionOOP.AssemblyInfo.cs
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/obj/Debug/net8.0/revisionOOP.csproj.CoreCompileInputs.cache
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/obj/Debug/net8.0/revisionOOP.sourcelink.json
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/obj/Debug/net8.0/revisionOOP.dll
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/obj/Debug/net8.0/refint/revisionOOP.dll
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/obj/Debug/net8.0/revisionOOP.pdb
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/obj/Debug/net8.0/revisionOOP.genruntimeconfig.cache
+/Users/mgams/Cours/6TTI_DayaniPoty_Mael-UAA14/revisionOOP/obj/Debug/net8.0/ref/revisionOOP.dll

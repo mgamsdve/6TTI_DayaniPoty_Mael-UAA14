@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="Entrainement" name="Entrainement">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="classe" parent="1" value="Entrainement" vertex="1" style="swimlane;fontStyle=1;align=center;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;whiteSpace=wrap;html=1;fontSize=14;">
+          <mxGeometry x="60" y="60" width="950" height="276" as="geometry" />
+        </mxCell>
+        <mxCell id="item-0-0" parent="classe" value="- _nom : string" vertex="1" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=8;whiteSpace=wrap;html=1;fontSize=14;">
+          <mxGeometry y="26" width="950" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="item-0-1" parent="classe" value="- _longueurParcours : double" vertex="1" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=8;whiteSpace=wrap;html=1;fontSize=14;">
+          <mxGeometry y="52" width="950" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="item-0-2" parent="classe" value="- _temps : TimeSpan" vertex="1" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=8;whiteSpace=wrap;html=1;fontSize=14;">
+          <mxGeometry y="78" width="950" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="separateur-1" parent="classe" value="" vertex="1" style="line;strokeWidth=1;strokeColor=inherit;">
+          <mxGeometry y="104" width="950" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="item-1-0" parent="classe" value="+ string Nom (get)" vertex="1" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=8;whiteSpace=wrap;html=1;fontSize=14;">
+          <mxGeometry y="112" width="950" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="item-1-1" parent="classe" value="+ double LongueurParcours (get)" vertex="1" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=8;whiteSpace=wrap;html=1;fontSize=14;">
+          <mxGeometry y="138" width="950" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="item-1-2" parent="classe" value="+ TimeSpan Temps (get)" vertex="1" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=8;whiteSpace=wrap;html=1;fontSize=14;">
+          <mxGeometry y="164" width="950" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="separateur-2" parent="classe" value="" vertex="1" style="line;strokeWidth=1;strokeColor=inherit;">
+          <mxGeometry y="190" width="950" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="item-2-0" parent="classe" value="+ Entrainement(nom : string, longueurParcours : double, temps : TimeSpan)" vertex="1" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=8;whiteSpace=wrap;html=1;fontSize=14;">
+          <mxGeometry y="198" width="950" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="item-2-1" parent="classe" value="+ VitesseMoyenne() : double" vertex="1" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=8;whiteSpace=wrap;html=1;fontSize=14;">
+          <mxGeometry y="224" width="950" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="item-2-2" parent="classe" value="+ EcartParRapportAuMeilleur(meilleurTemps : int) : TimeSpan" vertex="1" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=8;whiteSpace=wrap;html=1;fontSize=14;">
+          <mxGeometry y="250" width="950" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" value="La longueur du parcours est en kilomètres. Le temps est une durée, donc un TimeSpan. La vitesse se calcule avec la durée en heures. Le meilleur temps est reçu en secondes. L’écart vaut le temps du coureur moins le meilleur temps : un écart positif indique un retard. Les données se lisent avec get." vertex="1" style="shape=note;whiteSpace=wrap;html=1;size=15;align=left;spacing=12;fontSize=14;">
+          <mxGeometry x="60" y="371" width="950" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

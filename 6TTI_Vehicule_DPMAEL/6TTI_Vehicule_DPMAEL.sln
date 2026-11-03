@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6TTI_Vehicule_DPMAEL", "6TTI_Vehicule_DPMAEL.csproj", "{2B69F27C-2DAA-47FC-B73B-DF6E0AF7987F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B69F27C-2DAA-47FC-B73B-DF6E0AF7987F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B69F27C-2DAA-47FC-B73B-DF6E0AF7987F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B69F27C-2DAA-47FC-B73B-DF6E0AF7987F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B69F27C-2DAA-47FC-B73B-DF6E0AF7987F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

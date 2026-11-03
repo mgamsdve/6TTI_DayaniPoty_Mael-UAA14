@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6TTI_Vehicule_DPMAEL", "6TTI_Vehicule_DPMAEL\6TTI_Vehicule_DPMAEL.csproj", "{164F0D68-BD1C-4502-8296-6BC1686E2FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6TTI_Entrainement_DPMAEL", "6TTI_Entrainement_DPMAEL\6TTI_Entrainement_DPMAEL.csproj", "{5FF8366B-4490-4569-8C07-424ED60DA094}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{164F0D68-BD1C-4502-8296-6BC1686E2FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164F0D68-BD1C-4502-8296-6BC1686E2FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164F0D68-BD1C-4502-8296-6BC1686E2FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164F0D68-BD1C-4502-8296-6BC1686E2FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF8366B-4490-4569-8C07-424ED60DA094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF8366B-4490-4569-8C07-424ED60DA094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF8366B-4490-4569-8C07-424ED60DA094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF8366B-4490-4569-8C07-424ED60DA094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

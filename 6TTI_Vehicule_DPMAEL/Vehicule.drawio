@@ -56,9 +56,6 @@
         <mxCell id="item-2-3" parent="classe" value="+ FaireLePlein()" vertex="1" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=8;whiteSpace=wrap;html=1;fontSize=14;">
           <mxGeometry y="380" width="1200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="note" parent="1" value="Corrections : le niveau de carburant peut être modifié seulement entre 0 et la capacité du réservoir. AjouterCarburant refuse les quantités négatives ou nulles et les ajouts qui dépassent la capacité. Le tableau garage teste les méthodes et la consommation de carburant. Les quantités sont en litres." vertex="1" style="shape=note;whiteSpace=wrap;html=1;size=15;align=left;spacing=12;fontSize=14;">
-          <mxGeometry x="60" y="501" width="1200" height="130" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
